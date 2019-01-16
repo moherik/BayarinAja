@@ -3,7 +3,7 @@
 }
 
 .main-header{
-  padding: 60px 0px;
+  padding: 40px 0px 60px 0px;
   background: #fd7e14;
 }
 
@@ -16,8 +16,21 @@
   width: 100%;
 }
 
+.carousel-inner{
+  z-index: 1000;
+}
+
 .carousel-item{
-  padding: 12px 50px 0px 50px;
+  padding: 38px 50px 0px 50px;
+}
+
+.bg-drop{
+  background: #ffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .bag1{
