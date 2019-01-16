@@ -4,7 +4,7 @@
 
 .main-header{
   padding: 60px 0px;
-  background: #ff9800;
+  background: #fd7e14;
 }
 
 .main-header .devices{
@@ -14,6 +14,10 @@
 
 .main-header .devices img{
   width: 100%;
+}
+
+.carousel-item{
+  padding: 12px 50px 0px 50px;
 }
 
 .bag1{
