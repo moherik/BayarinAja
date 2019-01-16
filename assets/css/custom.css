@@ -2,11 +2,20 @@
   background: linear-gradient(135deg, #ffa84c 0%,#ff7b0d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-.carousel-item{
-  width: 300px !important;
-  margin: 40px 0px !important;
-
+.main-header{
+  padding: 60px 0px;
+  background: #ff9800;
 }
+
+.main-header .devices{
+  position: absolute;
+  z-index: 2000;
+}
+
+.main-header .devices img{
+  width: 100%;
+}
+
 .bag1{
 	margin: 0;
 }
