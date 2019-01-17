@@ -1,4 +1,53 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:400|Poppins:400');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Poppins:400');
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
 html {font-size: 16px;}
 
@@ -11,13 +60,6 @@ body {
 }
 
 p {margin-bottom: 1.25em;}
-
-h1, h2, h3, h4, h5 {
-  margin: 2.75rem 0 1rem;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 400;
-  line-height: 1.15;
-}
 
 h1 {
   margin-top: 0;
@@ -100,4 +142,26 @@ nav.bg-first{
 .bag2{
 	margin: 0;
 	background-color: #ffff;
+}
+
+.sec{
+  padding: 120px;
+}
+
+.tema1{
+  background-color: #009cde;
+  background-image: radial-gradient(circle farthest-side at center bottom,#009cde,#003087 125%);
+  color: #fff;
+}
+
+.tema1 .card{
+  color: #000;
+}
+
+#keuntungan p.desc{
+  margin-top: 20px;
+}
+
+#keuntungan p.card-desc{
+  margin-top: 10px;
 }
