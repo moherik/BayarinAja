@@ -13,7 +13,7 @@ $(document).ready(function(){
       } else {
         $('.navbar').removeClass("bg-second");
         $('.navbar').addClass("bg-first");
-        $('#img-logo').attr("src","assets/images/logo 2.png");
+        $('#img-logo').attr("src","assets/images/logo 3.png");
       }
     });
   });
