@@ -1,5 +1,3 @@
 $(document).ready(function(){
-  $('.carousel').carousel({
-    interval: 5000
-  })
+  jQuery.fn.carousel.Constructor.TRANSITION_DURATION = 100  // 2 seconds
 });
