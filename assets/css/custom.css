@@ -77,10 +77,10 @@ h5 {font-size: 1.25em;}
 small, .text_small {font-size: 0.8em;}
 
 
-nav.bg-first{
-  background: #fd7e14;
-  padding: 20px 0;
-}
+nav.bg-first, nav.bg-second{ padding: 20px 0; z-index: 50000}
+nav.bg-first{ background: #fd7e14;}
+nav.bg-second{ background: #ffff; box-shadow: 0 0 10px 1px rgba(0,0,0,.2), 0 0 10px 1px rgba(255,255,255,.2);}
+
 
 .main-header{
   background: #fd7e14;
