@@ -136,17 +136,11 @@ nav.bg-first{
   bottom: 0;
 }
 
-.bag1{
-	margin: 0;
-}
-.bag2{
-	margin: 0;
-	background-color: #ffff;
-}
+.bag1{ margin: 0; }
+.bag2{ margin: 0; background-color: #ffff; }
 
-.sec{
-  padding: 120px;
-}
+
+.sec{ padding: 120px 0px 100px 0px; }
 
 .tema1{
   background-color: #009cde;
@@ -154,14 +148,9 @@ nav.bg-first{
   color: #fff;
 }
 
-.tema1 .card{
-  color: #000;
-}
+.tema1 .card{color: #000;}
 
-#keuntungan p.desc{
-  margin-top: 20px;
-}
-
-#keuntungan p.card-desc{
-  margin-top: 10px;
-}
+#keuntungan p.desc{margin-top: 20px;}
+#keuntungan .list-group .list-group-item{background: inherit; padding-left: 0px;}
+#keuntungan .list-group .list-group-item .list-text{ margin-left: 20px; }
+#keuntungan p.card-desc{ margin-top: 10px; margin-bottom: 0px;}
