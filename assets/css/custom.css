@@ -153,4 +153,5 @@ nav.bg-first{
 #keuntungan p.desc{margin-top: 20px;}
 #keuntungan .list-group .list-group-item{background: inherit; padding-left: 0px;}
 #keuntungan .list-group .list-group-item .list-text{ margin-left: 20px; }
+#keuntungan .card-body{ height: 200px;}
 #keuntungan p.card-desc{ margin-top: 10px; margin-bottom: 0px;}
