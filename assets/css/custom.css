@@ -186,7 +186,7 @@ nav.bg-second{ background: #ffff; box-shadow: 0 0 10px 1px rgba(0,0,0,.2), 0 0 1
   .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
     position: absolute;
     top: 0;
-    right: -33.3333%;
+    right: -25%;
     z-index: -1;
     display: block;
     visibility: visible;
