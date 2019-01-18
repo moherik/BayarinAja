@@ -150,10 +150,9 @@ nav.bg-second{ background: #ffff; box-shadow: 0 0 10px 1px rgba(0,0,0,.2), 0 0 1
 
 .tema1 .card{color: #000;}
 
-.tema3{
-  background-color: #000;
-}
+.tema3{ padding: 0; margin-top: -6px;}
 
+#keuntungan { padding-bottom: 180px;}
 #keuntungan p.desc{margin-top: 20px;}
 #keuntungan .list-group .list-group-item{background: inherit; padding-left: 0px;}
 #keuntungan .list-group .list-group-item .list-text{ margin-left: 20px; }
@@ -161,6 +160,24 @@ nav.bg-second{ background: #ffff; box-shadow: 0 0 10px 1px rgba(0,0,0,.2), 0 0 1
 #keuntungan .card-body{ height: 200px;}
 #keuntungan p.card-desc{ margin-top: 10px; margin-bottom: 0px;}
 
+#aplikasi{ padding-bottom: 0px;}
+#aplikasi .device img.phone1{
+	/*transform: skew(20deg, -20deg);*/
+	margin-top: -260px;
+}
+
+#aplikasi .icon{
+	font-size: 3rem;
+}
+
+/*
+#aplikasi .device img.phone1{
+	transform: skew(20deg, -20deg);
+}
+
+#aplikasi .text-left{
+    margin-left: -50px;
+}*/
 
 #merchant .carousel-item{padding: 0px 10px 0px 0px;}
 @media (min-width: 768px) {
@@ -186,7 +203,7 @@ nav.bg-second{ background: #ffff; box-shadow: 0 0 10px 1px rgba(0,0,0,.2), 0 0 1
   .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
     position: absolute;
     top: 0;
-    right: -25%;
+    right: -33.333333%;
     z-index: -1;
     display: block;
     visibility: visible;
