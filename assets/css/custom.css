@@ -80,7 +80,7 @@ small, .text_small {font-size: 0.8em;}
 /* Bootstrap Custom Button */
 .btn{ border-radius: 40px; padding: .5rem 2rem; }
 
-nav.bg-first, nav.bg-second{ padding: 20px 0; z-index: 50000}
+nav.bg-first, nav.bg-second{ padding: 20px 0; z-index: 50000; transition: .2s ease-out;}
 nav.bg-first{ background: #fd7e14;}
 nav.bg-second{ background: #ffff; box-shadow: 0 0 10px 1px rgba(0,0,0,.2), 0 0 10px 1px rgba(255,255,255,.2);}
 
@@ -152,16 +152,48 @@ nav.bg-second{ background: #ffff; box-shadow: 0 0 10px 1px rgba(0,0,0,.2), 0 0 1
   color: #fff;
 }
 
-.tema1 .card{color: #000;}
+.tema2{
+	background-image: linear-gradient(to top, #e14fad 0%, #fd7e14 100%);
+	/* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
+}
 
-.tema3{ padding: 0; }
+.tema2 .card{
+	color: #000;
+}
+
+.tema3{
+	/* background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%); */
+	background-image: url("https://image.freepik.com/free-vector/abstract-background_52683-901.jpg");
+	/* background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	color: #fff;
+}
+
+/* .tema3:before{
+	background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+	background-blend-mode: multiply,multiply;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	content: "";
+}
+ */
+.tema4{
+	/* background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%); */
+	background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
 
 #keuntungan { padding-bottom: 180px;}
 #keuntungan p.desc{margin-top: 20px;}
 #keuntungan .list-group .list-group-item{background: inherit; padding-left: 0px;}
 #keuntungan .list-group .list-group-item .list-text{ margin-left: 20px; }
-#keuntungan .list-group .list-group-item .fas{ color: #fd7e14!important; }
-#keuntungan .card-body{ height: 200px;}
+#keuntungan .list-group .list-group-item{ font-weight: bold;}
+#keuntungan .card{box-shadow: 0 0 10px 1px rgba(0,0,0,.2), 0 0 10px 1px rgba(255,255,255,.2); border: none;}
+/* #keuntungan .card-body{ height: 200px;} */
 #keuntungan p.card-desc{ margin-top: 10px; margin-bottom: 0px;}
 
 #aplikasi{ padding-bottom: 0px;}
