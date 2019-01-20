@@ -84,6 +84,24 @@ nav.bg-first, nav.bg-second{ padding: 20px 0; z-index: 50000; transition: .2s ea
 nav.bg-first{ background: #fd7e14;}
 nav.bg-second{ background: #ffff; box-shadow: 0 0 10px 1px rgba(0,0,0,.2), 0 0 10px 1px rgba(255,255,255,.2);}
 
+nav.bg-first .call-center,
+nav.bg-second .call-center{
+	border-radius: 22px;
+	margin-top: -45px;
+	padding: 30px 20px 0px 20px;
+	font-weight: bold;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,.2), 0 0 10px 1px rgba(255,255,255,.2);
+	margin-left: 20px;
+}
+nav.bg-first .call-center{
+	background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+	color: #fff!important;
+}
+nav.bg-second .call-center{
+	background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+	/* background: #0077c0;  */
+	color: #fff!important;
+}
 
 .main-header{
   background: #fd7e14;
