@@ -351,3 +351,32 @@ nav.bg-second{ background: #ffff; box-shadow: 0 0 10px 1px rgba(0,0,0,.2), 0 0 1
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+/* #download{ padding: 50px 0px; }
+#download .head{ margin-bottom: 25px; }
+#download .head h5{ margin-bottom: 25px; color: #0077c0; font-weight: bold;} */
+
+footer#mainFooter{
+	background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+	background-blend-mode: multiply;
+	color: #fff;
+}
+
+#mainFooter .head{ margin-bottom: 25px; }
+#mainFooter .head h5{ margin-bottom: 25px; color: #fd7e14; font-weight: bold;}
+#mainFooter ul li{ background: inherit; padding: .75rem 0rem; }
+#mainFooter ul li a{ color: #fff; text-decoration: none; }
+#mainFooter ul li a:hover{ color: #fd7e14; }
+#mainFooter ul li .list-text{ margin-left: 15px; }
+
+#copyright{ padding: 20px 0px; background: #fd7e14; }
+#copyright .text{ margin-top: 10px; font-weight: bold;}
+#copyright ul.social li{
+	display: inline-block;
+  padding: 10px 14px;
+  background: #fff;
+  border-radius: 100%;
+  margin-left: 10px;
+}
+#copyright ul.social li a{ color: #fd7e14; }
+#copyright ul.social li a:hover{ color: #000 !important; }
