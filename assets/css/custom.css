@@ -228,6 +228,10 @@ nav.bg-second .call-center{
 #fitur .icon{ float: left; display: inline-block; }
 #fitur .text{ float: right; margin-left: 120px; margin-top: 10px; position: absolute; }
 
+.btn-feature{color: #0088ce;}
+.btn-feature:hover{color: #0088ce;}
+
+
 #fitur .ic-icon{
 	font-size: 2rem;
 	margin-bottom: 15px;
