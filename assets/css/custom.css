@@ -380,3 +380,7 @@ footer#mainFooter{
 }
 #copyright ul.social li a{ color: #fd7e14; }
 #copyright ul.social li a:hover{ color: #000 !important; }
+
+.img-feature{
+  width: 80%;
+}
