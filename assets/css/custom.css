@@ -81,7 +81,7 @@ small, .text_small {font-size: 0.8em;}
 .btn{ border-radius: 40px; padding: .5rem 2rem; }
 
 nav.bg-first, nav.bg-second{ padding: 20px 0; z-index: 50000; transition: .2s ease-out;}
-nav.bg-first{ background: #fd7e14;}
+nav.bg-first{   background: transparent; }
 nav.bg-second{ background: #ffff; box-shadow: 0 0 10px 1px rgba(0,0,0,.2), 0 0 10px 1px rgba(255,255,255,.2);}
 
 nav.bg-first .call-center,
@@ -89,7 +89,6 @@ nav.bg-second .call-center{
 	border-radius: 22px;
 	margin-top: -45px;
 	padding: 30px 20px 0px 20px;
-	font-weight: bold;
 	box-shadow: 0 0 10px 1px rgba(0,0,0,.2), 0 0 10px 1px rgba(255,255,255,.2);
 	margin-left: 20px;
 }
@@ -104,9 +103,10 @@ nav.bg-second .call-center{
 }
 
 .main-header{
-  background: #fd7e14;
+  background: #ff9800f2;
   position: relative;
-  height: 620px;
+  height: 100vh;
+	padding-top: 100px;
   overflow: hidden;
 }
 
@@ -205,38 +205,44 @@ nav.bg-second .call-center{
 	background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
 
-#keuntungan { padding-bottom: 180px;}
+/* #keuntungan { padding-bottom: 180px;} */
 #keuntungan p.desc{margin-top: 20px;}
 #keuntungan .list-group .list-group-item{background: inherit; padding-left: 0px;}
 #keuntungan .list-group .list-group-item .list-text{ margin-left: 20px; }
 #keuntungan .list-group .list-group-item{ font-weight: bold;}
-#keuntungan .card{box-shadow: 0 0 10px 1px rgba(0,0,0,.2), 0 0 10px 1px rgba(255,255,255,.2); border: none;}
-/* #keuntungan .card-body{ height: 200px;} */
-#keuntungan p.card-desc{ margin-top: 10px; margin-bottom: 0px;}
+#keuntungan .card{ border: none;}
+#keuntungan .card-body{ padding-left: 0rem; padding-right: 0rem; }
+#keuntungan .card-body .card-title{ color: #0077c0; font-weight: bold; }
+#keuntungan .card-body p.card-desc{ margin-top: 10px; margin-bottom: 0px; }
 
-#aplikasi{ padding-bottom: 0px;}
-#aplikasi .device img.phone1{
-	/*transform: skew(20deg, -20deg);*/
-	margin-top: -250px;
+#headfitur{
+	/* background-image: url("../images/bg-pexel2.jpg"); */
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
-#aplikasi .icon{
-	font-size: 3rem;
+
+#fitur .row{ margin-bottom: 25px; }
+#fitur .head{ margin-left: 20px; }
+#fitur .head .title{ font-weight: bold; margin-bottom: 10px; }
+#fitur .icon{ float: left; display: inline-block; }
+#fitur .text{ float: right; margin-left: 120px; margin-top: 10px; position: absolute; }
+
+#fitur .ic-icon{
+	font-size: 2rem;
 	margin-bottom: 15px;
 	background: #fff;
 	color: #0077c0;
+	/* padding: 20px; */
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	padding-top: 14px;
+	border-radius: 100%;
 }
-#aplikasi h4{ /*border-bottom: solid 1.5px #fff;*/ padding-bottom: 5px;}
-#aplikasi p.desc{ margin-top: 10px; }
+#fitur h4{ /*border-bottom: solid 1.5px #fff;*/ padding-bottom: 5px;}
+#fitur p.desc{ margin-top: 10px; }
 
-/*
-#aplikasi .device img.phone1{
-	transform: skew(20deg, -20deg);
-}
-
-#aplikasi .text-left{
-    margin-left: -50px;
-}*/
 
 #topup{ margin-top: -6px; background: #ffff;}
 #topup .head{ margin-bottom: 40px; }
@@ -249,7 +255,6 @@ nav.bg-second .call-center{
 	color: #fff;
 	background: #0077c0;
 }
-
 
 #merchant .carousel-item{padding: 0px 10px 0px 0px;}
 #merchant .head{ margin-bottom: 50px; color: #0077c0; font-weight: bold; }
