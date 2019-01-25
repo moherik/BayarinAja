@@ -1,0 +1,48 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #nav-top{ padding: 20px; }
+  #nav-top .call-center{
+    margin-top: 10px;
+    width: 200px;
+    padding: 20px;
+    margin-left: 10px;
+  }
+  .main-header .hero{ margin-top: 10px; }
+  #MainCarousel{ display: none; }
+  .sec{ padding: 20px 0px; }
+  .device{ display: none; }
+  #keuntungan .col-sm-12{ margin-bottom: 25px; }
+  /* #fitur .content .row:first-child,
+  #fitur .content .row:last-child{ margin-bottom: : inherit; } */
+  #fitur .content .row .col-md-12{ margin-bottom: 60px; }
+  #copyright .text{ text-align: center; margin-bottom: 25px; }
+  #copyright .social{ text-align: center !important; }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  #nav-top{ padding: 20px; }
+  #nav-top .call-center{
+    margin-top: 10px;
+    width: 200px;
+    padding: 20px;
+    margin-left: 10px;
+  }
+  .main-header .hero{ margin-top: 40px; }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  #fitur .content .row:first-child{ height: inherit; }
+  #fitur .content .row{ height: 180px; }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
