@@ -3,9 +3,10 @@
   #nav-top{ padding: 20px; }
   #nav-top .call-center{
     margin-top: 10px;
-    width: 200px;
-    padding: 20px;
-    margin-left: 10px;
+        width: 184px;
+        padding: 10px 20px;
+        margin-left: 10px;
+    }
   }
   .main-header .hero{ margin-top: 10px; }
   #MainCarousel{ display: none; }
