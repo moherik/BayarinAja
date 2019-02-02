@@ -396,8 +396,8 @@ footer#mainFooter{
 #mainFooter ul li a:hover{ color: #fd7e14; }
 #mainFooter ul li .list-text{ margin-left: 15px; }
 
-#copyright{ padding: 20px 0px; background: #fd7e14; }
-#copyright .text{ margin-top: 10px; font-weight: bold;}
+#copyright{ padding: 0px 0px; background: #fd7e14; }
+#copyright .text{margin-top: 10px; font-weight: lighter; font-size: .9rem;}
 #copyright ul.social li{
 	display: inline-block;
   padding: 10px 14px;
